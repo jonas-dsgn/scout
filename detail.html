@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Object — Scout Necker Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SN</span>
+      <span class="brand-name">Scout Necker <em>Archive</em></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" data-nav="index.html">Home</a>
+      <a href="gallery.html" data-nav="gallery.html" class="active">Gallery</a>
+      <span class="count-pill" id="navCount"></span>
+    </nav>
+  </div>
+</header>
+
+<div class="detail-header">
+  <div class="container">
+    <a class="back-link" href="gallery.html">← Back to Gallery</a>
+  </div>
+</div>
+
+<main class="detail-main">
+  <div class="container detail-grid">
+
+    <div class="detail-stage" id="detailStage"></div>
+
+    <div class="detail-copy">
+      <span class="eyebrow" id="detailEyebrow">Object</span>
+      <h1 id="detailName">—</h1>
+      <div class="detail-rule"></div>
+
+      <div class="detail-meta">
+        <div class="meta-row"><span class="k">Type</span><span class="v" id="metaType">—</span></div>
+        <div class="meta-row"><span class="k">Style</span><span class="v" id="metaCategory">—</span></div>
+      </div>
+
+      <div class="detail-nav">
+        <a href="#" id="prevLink"></a>
+        <a href="#" id="nextLink"></a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span class="foot-brand">Scout Necker Archive</span>
+    <span>A digital museum collection. Est. for archival purposes only.</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

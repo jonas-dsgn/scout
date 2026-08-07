@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Collection — Scout Necker Archive</title>
+<meta name="description" content="Browse the full digital collection of Scout neckerchiefs, filterable by type and style.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SN</span>
+      <span class="brand-name">Scout Necker <em>Archive</em></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" data-nav="index.html">Home</a>
+      <a href="gallery.html" data-nav="gallery.html" class="active">Gallery</a>
+      <a href="index.html#contribute" data-nav="contribute">Contribute</a>
+      <span class="count-pill" id="navCount"></span>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="gallery-header">
+    <div class="container">
+      <span class="eyebrow">The Collection</span>
+      <h1>Browse the archive</h1>
+      <p>Every neckerchief in the collection, presented as an isolated object. Use the filters below to explore by type and style.</p>
+    </div>
+  </section>
+
+  <div class="filter-bar">
+    <div class="container filter-groups">
+      <div class="filter-group">
+        <span class="filter-label">Type</span>
+        <div class="filter-group" id="typeFilters"></div>
+      </div>
+      <div class="filter-divider"></div>
+      <div class="filter-group">
+        <span class="filter-label">Style</span>
+        <div class="filter-group" id="categoryFilters"></div>
+      </div>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+  </div>
+
+  <section class="gallery-wrap">
+    <div class="container">
+      <div class="necker-grid" id="neckerGrid"></div>
+      <p class="empty-state" id="emptyState">No objects match this combination of filters.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span class="foot-brand">Scout Necker Archive</span>
+    <span>A digital museum collection. Est. for archival purposes only.</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
