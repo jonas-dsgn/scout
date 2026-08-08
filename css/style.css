@@ -98,16 +98,20 @@ ul{ list-style: none; margin: 0; padding: 0; }
 }
 
 .brand-mark{
+  /* Brand mark: circular container for the site icon */
   width: 34px;
   height: 34px;
   border: 1.5px solid var(--gold);
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: .04em;
-  color: var(--gold-deep);
+  display: inline-block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brand-mark[src], .brand-mark img{
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: cover;
 }
 
 .brand-name em{
