@@ -27,4 +27,7 @@ const NECKERS = [
   { id: "austria",  accession: "SC.002", name: "Austria National",   type: "National",       category: "Striped",  image: "images/necker-02.svg", fullImage: "images/full/necker-02.png" },
   { id: "nepal",  accession: "SC.003", name: "Nepal National",   type: "National",       category: "Border",    image: "images/necker-03.svg", fullImage: "images/full/necker-03.png" },
   { id: "taiwan-girl",  accession: "SC.004", name: "Taiwan Girl National",   type: "National",       category: "Patterned",    image: "images/necker-04.svg", fullImage: "images/full/necker-04.png" },
+  { id: "uk-woidla24",  accession: "SC.005", name: "UK WoidLa 2024",   type: "Event",       category: "Striped",    image: "images/necker-05.svg", fullImage: "images/full/necker-05.png" },
+  { id: "sweden",  accession: "SC.006", name: "Sweden National",   type: "National",       category: "Border",    image: "images/necker-06.svg", fullImage: "images/full/necker-06.png" },
+  { id: "hong-kong-spejdernes-lejr26",  accession: "SC.007", name: "Hong Kong Spejdernes Lejr 2026",   type: "Event",       category: "Patterned",    image: "images/necker-07.svg", fullImage: "images/full/necker-07.png" },
 ];
